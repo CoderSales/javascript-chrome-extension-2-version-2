@@ -15,6 +15,11 @@
         "https://developer.chrome.com/*"
     ],
     "permissions": [
-        "tabGroups"
-    ]
+        "tabGroups",
+        "tabs"
+    ],
+    "web_accessible_resources": [{
+        "matches": ["<all_urls>"],
+        "resources": ["topbar.html"]
+    }]   
 }
