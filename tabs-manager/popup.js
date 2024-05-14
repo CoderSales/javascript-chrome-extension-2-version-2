@@ -4,13 +4,21 @@ const tabs = await chrome.tabs.query({
       "https://developer.chrome.com/docs/extensions/*",
       "https://github.com/*",
       "https://stackoverflow.com/*",
-      "https://www.w3schools.com/*"
+      "https://www.w3schools.com/*",
+      "https://www.google.com/*",
+      "https://www.codecademy.com/*"
     ]
 });
 
+let referenceString = "";
+
 for (let i=0;i<tabs.length;i++) {
-    console.log(tabs[i].url);
+    // console.log(`[${tabs[i].title}](${tabs[i].url})`);
+    referenceString = referenceString + `[${tabs[i].title}](${tabs[i].url})`+"\n\n";
+
 }
+
+console.log(referenceString);
 
 const collator = new Intl.Collator();
 tabs.sort((a, b) => collator.compare(a.title, b.title));
