@@ -13,9 +13,11 @@ const tabs = await chrome.tabs.query({
 let referenceString = "";
 
 for (let i=0;i<tabs.length;i++) {
-    // console.log(`[${tabs[i].title}](${tabs[i].url})`);
-    referenceString = referenceString + `[${tabs[i].title}](${tabs[i].url})`+"\n\n";
+        console.log(tabs[i]);
+}
 
+for (let i=0;i<tabs.length;i++) {
+    referenceString = referenceString + `[${tabs[i].title}](${tabs[i].url})`+"\n\n";
 }
 
 console.log(referenceString);
