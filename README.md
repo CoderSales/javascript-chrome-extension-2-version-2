@@ -117,8 +117,6 @@ ____
 
 [javascript .emitPISessionOperation - Google Search](https://www.google.com/search?q=javascript+.emitPISessionOperation&newwindow=1&sca_esv=4771c1dce5b9df5f&sca_upv=1&sxsrf=ADLYWILHeFUCXpq7tjiVRs3BpssGKMn4zw%3A1715620447452&ei=X0pCZrD7Gvm_xc8Pl9auqAo&ved=0ahUKEwjwptuakIuGAxX5X_EDHRerC6UQ4dUDCBA&uact=5&oq=javascript+.emitPISessionOperation&gs_lp=Egxnd3Mtd2l6LXNlcnAiImphdmFzY3JpcHQgLmVtaXRQSVNlc3Npb25PcGVyYXRpb25IukVQ-zRYnURwB3gAkAEAmAH5AaABlQyqAQYwLjEwLjG4AQPIAQD4AQGYAgCgAgCYAwCIBgGSBwCgB_AS&sclient=gws-wiz-serp)
 
-[Glean.core - Google Search](https://www.google.com/search?q=Glean.core&newwindow=1&sca_esv=4771c1dce5b9df5f&sca_upv=1&sxsrf=ADLYWIJTXwGarGTjj_Nlp9vINxSOVhcNww%3A1715620314133&ei=2klCZsnLB8KHxc8P9LWDmAk&ved=0ahUKEwjJoJLbj4uGAxXCQ_EDHfTaAJMQ4dUDCBA&uact=5&oq=Glean.core&gs_lp=Egxnd3Mtd2l6LXNlcnAiCkdsZWFuLmNvcmUyBBAjGCcyBBAAGB4yBBAAGB4yBhAAGAUYHkjaG1DSF1i5GXACeACQAQCYAcABoAG1AqoBAzAuMrgBA8gBAPgBAZgCBKACyQLCAgkQABiwAxgKGB6YAwCIBgGQBgGSBwMyLjKgB7QG&sclient=gws-wiz-serp)
-
 [javascript console.log arguments - Google Search](https://www.google.com/search?q=javascript+consol.log+arguments&oq=javascript+consol.log+arguments&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIICAEQABgWGB4yCAgCEAAYFhgeMggIAxAAGBYYHjIICAQQABgWGB4yCAgFEAAYFhgeMggIBhAAGBYYHjIICAcQABgWGB4yCAgIEAAYFhgeMg0ICRAAGIYDGIAEGIoF0gEJMTM5NzJqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8)
 
 [js slice - Google Search](https://www.google.com/search?q=js+slice&oq=js+slice&gs_lcrp=EgZjaHJvbWUyDggAEEUYORhDGIAEGIoFMgcIARAAGIAEMgcIAhAAGIAEMgcIAxAAGIAEMgcIBBAAGIAEMgcIBRAAGIAEMgcIBhAAGIAEMgcIBxAAGIAEMgcICBAAGIAEMgcICRAAGIAE0gEIMzQyNGowajeoAgCwAgA&sourceid=chrome&ie=UTF-8)
