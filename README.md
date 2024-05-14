@@ -156,3 +156,22 @@ ____
 
 [JavaScript String slice() Method](https://www.w3schools.com/jsref/jsref_slice_string.asp)
 
+____
+
+```text
+How to use the values method in a set
+You retrieve the values in a set by using the "values" method, which returns an iterable. You can then use a for loop or for-of loop to loop through the values.
+
+The example below shows the creation of a set of fruits with 4 elements and the use of the "values" method to loop through the elements with a for-of loop.
+```
+
+```javascript
+const fruits = new Set([100,160, 200,300]);
+for( const fruit of fruits.values()){
+    console.log(fruit);
+}
+```
+
+[How to Use Set and Map in JavaScript | freecodecamp.org](https://www.freecodecamp.org/news/set-and-map-in-javascript/#:~:text=You%20retrieve%20the%20values%20in,with%20a%20for%2Dof%20loop.)
+
+____
