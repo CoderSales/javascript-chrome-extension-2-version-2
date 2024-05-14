@@ -7,7 +7,8 @@ const tabs = await chrome.tabs.query({
       "https://www.w3schools.com/*",
       "https://www.google.com/*",
       "https://www.codecademy.com/*",
-      "https://developer.mozilla.org/*"
+      "https://developer.mozilla.org/*",
+      "https://www.geeksforgeeks.org/"
     ]
 });
 
