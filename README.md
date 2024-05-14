@@ -97,7 +97,17 @@ ____
 
 [Set - JavaScript | MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set)
 
+____
+
+```javascript
+const iterator1 = set1.entries();
+
+for (const entry of iterator1) {
+```
+
 [Set.prototype.entries() - JavaScript | MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set/entries)
+
+____
 
 [how to iterate through setiterator - Google Search](https://www.google.com/search?q=how+to+iterate+through+setiterator&oq=how+to+iterate+through+setiterator&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQRRhA0gEIODI3NGowajeoAgCwAgA&sourceid=chrome&ie=UTF-8)
 
