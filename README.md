@@ -114,8 +114,21 @@ ____
 [javascript - Iterate over set elements - Stack Overflow](https://stackoverflow.com/questions/16401216/iterate-over-set-elements)
 
 [how to parse a set javascript - Google Search](https://www.google.com/search?q=how+to+parse+a+set+javascript&newwindow=1&sca_esv=4771c1dce5b9df5f&sca_upv=1&sxsrf=ADLYWIK7SOOcSfMb_VVq3SLJhsbMrrdPtw%3A1715614227016&ei=EzJCZuxA_pDFzw_Cl5b4Cg&ved=0ahUKEwislsqE-YqGAxV-SPEDHcKLBa8Q4dUDCBA&uact=5&oq=how+to+parse+a+set+javascript&gs_lp=Egxnd3Mtd2l6LXNlcnAiHWhvdyB0byBwYXJzZSBhIHNldCBqYXZhc2NyaXB0MggQIRigARjDBEiaHVDmC1icF3ACeAGQAQCYAaADoAGGBaoBBzAuMi40LTG4AQPIAQD4AQGYAgSgAqwEwgIKEAAYsAMY1gQYR8ICBxAjGLACGCeYAwCIBgGQBgiSBwcyLjEuNC0xoAeJBg&sclient=gws-wiz-serp)
+____
+
+Headings from geeksforgeeks.org site:
+
+```text
+1. Using forEach() method:
+
+2. Using for...of loop:
+
+3. Converting Set to Array and using array iteration methods:
+```
 
 [How to Iterate over the Elements of a Set in JavaScript ? - GeeksforGeeks](https://www.geeksforgeeks.org/how-to-iterate-over-the-elements-of-a-set-in-javascript/)
+
+____
 
 [set [[Entries]] - Google Search](https://www.google.com/search?q=set+%5B%5BEntries%5D%5D&oq=set+%5B%5BEntries%5D%5D&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQABiABDIICAIQABgWGB4yCAgDEAAYFhgeMggIBBAAGBYYHjIICAUQABgWGB4yCAgGEAAYFhgeMggIBxAAGBYYHjIICAgQABgWGB4yCAgJEAAYFhge0gEIMzc3NWowajeoAgCwAgA&sourceid=chrome&ie=UTF-8)
 
