@@ -175,3 +175,6 @@ for( const fruit of fruits.values()){
 [How to Use Set and Map in JavaScript | freecodecamp.org](https://www.freecodecamp.org/news/set-and-map-in-javascript/#:~:text=You%20retrieve%20the%20values%20in,with%20a%20for%2Dof%20loop.)
 
 ____
+
+
+[How to Loop Through an Array in JavaScript – JS Iterate Tutorial | freecodecamp.org](https://www.freecodecamp.org/news/how-to-loop-through-an-array-in-javascript-js-iterate-tutorial/)
