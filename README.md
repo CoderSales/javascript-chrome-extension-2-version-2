@@ -119,8 +119,9 @@ ____
 
 [javascript console.log arguments - Google Search](https://www.google.com/search?q=javascript+consol.log+arguments&oq=javascript+consol.log+arguments&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIICAEQABgWGB4yCAgCEAAYFhgeMggIAxAAGBYYHjIICAQQABgWGB4yCAgFEAAYFhgeMggIBhAAGBYYHjIICAcQABgWGB4yCAgIEAAYFhgeMg0ICRAAGIYDGIAEGIoF0gEJMTM5NzJqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8)
 
+[How to give two arguments in console.log()? | sitepoint.com](https://www.sitepoint.com/community/t/how-to-give-two-arguments-in-console-log/264955)
+
 [js slice - Google Search](https://www.google.com/search?q=js+slice&oq=js+slice&gs_lcrp=EgZjaHJvbWUyDggAEEUYORhDGIAEGIoFMgcIARAAGIAEMgcIAhAAGIAEMgcIAxAAGIAEMgcIBBAAGIAEMgcIBRAAGIAEMgcIBhAAGIAEMgcIBxAAGIAEMgcICBAAGIAEMgcICRAAGIAE0gEIMzQyNGowajeoAgCwAgA&sourceid=chrome&ie=UTF-8)
 
 [JavaScript String slice() Method](https://www.w3schools.com/jsref/jsref_slice_string.asp)
-
 
