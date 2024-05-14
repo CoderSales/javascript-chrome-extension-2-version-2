@@ -77,7 +77,7 @@ ____
 
 [how does chrome extension work gets from extension html url - Google Search](https://www.google.com/search?q=how+does+chrome+extension+work+gets+from+extension+html+url&oq=how+does+chrome+extension+work+gets+from+extension+html+url&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQRRhA0gEJMjA2NDBqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8)
 
-[`how does manifest call function in chrome extensions - Google Search](https://www.google.com/search?q=%60how+does+manifest+call+function+in+chrome+extensions&oq=%60how+does+manifest+call+function+in+chrome+extensions&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRigATIHCAIQIRigATIHCAMQIRigAdIBCDgzNTdqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8)
+[how does manifest call function in chrome extensions - Google Search](https://www.google.com/search?q=how+does+manifest+call+function+in+chrome+extensions&oq=how+does+manifest+call+function+in+chrome+extensions&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQRRhA0gEHOTI4ajBqN6gCALACAA&sourceid=chrome&ie=UTF-8)
 
 ["action": { "default_popup": "popup.html" - Google Search](https://www.google.com/search?q=%22action%22%3A+%7B+%22default_popup%22%3A+%22popup.html%22&oq=%22action%22%3A+%7B+%22default_popup%22%3A+%22popup.html%22&gs_lcrp=EgZjaHJvbWUyBggAEEUYOdIBCDEzMzFqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8)
 
