@@ -8,7 +8,11 @@ const tabs = await chrome.tabs.query({
       "https://www.google.com/*",
       "https://www.codecademy.com/*",
       "https://developer.mozilla.org/*",
-      "https://www.geeksforgeeks.org/*"
+      "https://www.geeksforgeeks.org/*",
+      "https://docs.aws.amazon.com/*",
+      "https://aws.amazon.com/*",
+      "https://cran.r-project.org/*",
+      "https://posit.co/download/rstudio-server/*"
     ]
 });
 
