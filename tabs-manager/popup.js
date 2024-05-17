@@ -24,6 +24,7 @@ const tabs = await chrome.tabs.query({
 });
 
 let referenceString = "";
+let referenceString2 = "";
 
 for (let i=0;i<tabs.length;i++) {
     if (tabs[i].url.slice(0,"https://www.geeksforgeeks.org/".length) == "https://www.geeksforgeeks.org/") {
@@ -31,6 +32,17 @@ for (let i=0;i<tabs.length;i++) {
         console.log(tabs[i]);
     }
 }
+
+for (let i=0;i<tabs.length;i++) {
+        console.log("line 39: tab number",i);
+        console.log(`${tabs[i].title}](${tabs[i].url})`);
+}
+
+for (let i=0;i<tabs.length;i++) {
+    console.log("line 42");
+    console.log(`[${tabs[i].title}](${tabs[i].url})`);
+}
+
 for (let i=0;i<tabs.length;i++) {
         console.log(tabs[i].title);
         console.log(tabs[i].url);
