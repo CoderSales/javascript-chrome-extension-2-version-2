@@ -14,7 +14,13 @@ const tabs = await chrome.tabs.query({
       "https://cran.r-project.org/*",
       "https://posit.co/download/rstudio-server/*",
       "https://learn.microsoft.com/*",
-      "https://askubuntu.com/*"
+      "https://askubuntu.com/*",
+      "https://fsl.fmrib.ox.ac.uk/*",
+      "https://neuroconductor.org/*",
+      "https://www.rdocumentation.org/*",
+      "https://ftp.nmr.mgh.harvard.edu/*",
+      "https://pubmed.ncbi.nlm.nih.g/*"
+      
     ]
 });
 
