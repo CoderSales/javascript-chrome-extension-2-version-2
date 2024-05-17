@@ -13,7 +13,8 @@ const tabs = await chrome.tabs.query({
       "https://aws.amazon.com/*",
       "https://cran.r-project.org/*",
       "https://posit.co/download/rstudio-server/*",
-      "https://learn.microsoft.com/*"
+      "https://learn.microsoft.com/*",
+      "https://askubuntu.com/*"
     ]
 });
 
