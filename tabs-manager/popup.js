@@ -20,7 +20,6 @@ const tabs = await chrome.tabs.query({
       "https://www.rdocumentation.org/*",
       "https://ftp.nmr.mgh.harvard.edu/*",
       "https://pubmed.ncbi.nlm.nih.g/*"
-      
     ]
 });
 
@@ -65,24 +64,12 @@ console.log("line 27:", entries);
 for (const entry of entries) {
     console.log("line 29:", entry);
 }
-console.log("line 31: hi");
-
-
-
-
-
 
 const iterator3 = elements[Symbol.iterator]();
 
 console.log(iterator3.next().value);
 
 console.log(iterator3.next().value);
-
-
-
-
-
-
 
 for (const tab of tabs) {
     const element = template.content.firstElementChild.cloneNode(true);
@@ -112,7 +99,5 @@ button.addEventListener("click", async () => {
             const group = await chrome.tabs.group({ tabIds });
             await chrome.tabGroups.update(group, { title: "DOCS" });
         }
-
     }
-
 );
