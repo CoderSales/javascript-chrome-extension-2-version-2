@@ -45,51 +45,13 @@ const allWindowIds = [];
 
 let allWindowsObject = {};
 
-//    syntax:
-
-//    tabs.index  : { index :  }
-//     1   2  3 
-
-
-
-//    tabs.windowId  : { index :  }
-//     773390182
-
-// outer:
-// let tabsDotWindowId = tabs.windowId;
-
-// inner j has:
-// let tabDotIndex = tab.index;
-// let tabDotIndex = tabs[x].index;
-
-// let tabDotId = tab.id;
-// let tabDotId = tabs[x].id;
-
-// tab is in tabs
-//  tab = tabs[x]
-
-//    tabs.windowId  : { tab.index : tab.id      }
-//     773390182     : { 1  2  12  : 773389145   }
-
-
-// let outerObject = {};
-// let allWindowsObject = {};
-
 // loop i then loop j:
 for (let i=0; i < allWindows.length;i++) {
-    // allWindowsObject[i] = `{${tabs.windowId}:${}}` ; // {0:{},1:{},2:{}}
-    
-    // allWindowsObject = {tabs.windowId : {}} ; // {0:{},1:{},2:{}}
-    
-    // object[something]=smthgElse;
-    // object[1]='blah';
-    
-    // assigns blah to the 1st position on our object
+
     console.log('hi');
     console.log('tabs[i].length = ',tabs[i].length);
     console.log('tabs[i] = ',tabs[i]);
-    // length of allWindows[x].length
-    // length of allWindows[x].length
+
     console.log('allWindows[i].length = ',allWindows[i].length);
     console.log('allWindows[i] = ',allWindows[i]);
     // need interim variable in between i and j here ish
@@ -102,9 +64,9 @@ for (let i=0; i < allWindows.length;i++) {
 //    tabs[index].windowId  : { index :  }
 
 // {
-//     { 773390182 : { # :  } }
-//     { 773390401 : { # :  } }
-//     { 773390404 : { # :  } }
+//     { windowId[0] : { # :  } }
+//     { windowId[1] : { # :  } }
+//     { windowId[2] : { # :  } }
 // }
 
 for (let i=0;i<allWindows.length;i++) {
@@ -186,7 +148,7 @@ let winObject = {};
 // let winObjectExample = { 
     
 //     1234234563 : { 
-//         10987098720 : {}
+//         tabId : {}
 //     } 
 
 // };
