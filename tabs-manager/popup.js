@@ -142,10 +142,10 @@ console.log(allWindowTabsReferencesString);
 
 let referenceString = "";
 
-for (let i=0;i<tabs.length;i++) {
-    console.log("line 74: tab number",i);
-    console.log(`[${tabs[i].title}](${tabs[i].url})`);
-}
+// for (let i=0;i<tabs.length;i++) {
+//     console.log("line 74: tab number",i);
+//     console.log(`[${tabs[i].title}](${tabs[i].url})`);
+// }
 
 for (let i=0;i<tabs.length;i++) {
     console.log(tabs[i].title);
