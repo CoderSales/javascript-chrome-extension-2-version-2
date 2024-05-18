@@ -160,19 +160,6 @@ tabs.sort((a, b) => collator.compare(a.title, b.title));
 const template = document.getElementById("li_template");
 const elements = new Set();
 
-console.log("line 25: elements.entries()",elements.entries());
-const entries = elements.entries();
-console.log("line 27:", entries);
-for (const entry of entries) {
-    console.log("line 29:", entry);
-}
-
-const iterator3 = elements[Symbol.iterator]();
-
-console.log(iterator3.next().value);
-
-console.log(iterator3.next().value);
-
 for (const tab of tabs) {
     const element = template.content.firstElementChild.cloneNode(true);
     
@@ -204,7 +191,6 @@ button.addEventListener("click", async () => {
 }
 );
 
-console.log(trueCheck);
 console.log(trueCheckCount);
 console.log(trueCheckList);
 console.log("allWindows.length = ",allWindows.length); // too many iterations after this
