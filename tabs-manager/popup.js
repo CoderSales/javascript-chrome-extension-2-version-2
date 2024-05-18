@@ -25,13 +25,10 @@ const tabs = await chrome.tabs.query({
       "https://flexiple.com/*"
     ]
 });
-
 const groups = [];
-
-const allTabs = await chrome.tabs.query({});
-
+const allTabs=tabs;
+// const allTabs = await chrome.tabs.query({});
 console.log(allTabs);
-
 for (let i=0;i<allTabs.length;i++) {
     const tab = allTabs[i];
 }
