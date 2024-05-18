@@ -164,8 +164,8 @@ tabs.sort((a, b) => collator.compare(a.title, b.title));
 const template = document.getElementById("li_template");
 const elements = new Set();
 
-console.log("line 17: template:", template);
-console.log("line 18: elements:", elements);
+// console.log("line 17: template:", template);
+// console.log("line 18: elements:", elements);
 
 
 const iterator2 = elements.entries();
