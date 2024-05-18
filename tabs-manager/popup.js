@@ -142,10 +142,6 @@ console.log(allWindowTabsReferencesString);
 
 let referenceString = "";
 
-// for (let i=0;i<tabs.length;i++) {
-//     console.log("line 74: tab number",i);
-//     console.log(`[${tabs[i].title}](${tabs[i].url})`);
-// }
 
 for (let i=0;i<tabs.length;i++) {
     console.log(tabs[i].title);
@@ -163,16 +159,6 @@ tabs.sort((a, b) => collator.compare(a.title, b.title));
 
 const template = document.getElementById("li_template");
 const elements = new Set();
-
-// console.log("line 17: template:", template);
-// console.log("line 18: elements:", elements);
-
-
-// const iterator2 = elements.entries();
-
-// console.log(iterator2);
-
-// console.log("hi4");
 
 console.log("line 25: elements.entries()",elements.entries());
 const entries = elements.entries();
