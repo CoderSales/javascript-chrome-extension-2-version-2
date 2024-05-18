@@ -52,6 +52,12 @@ let trueCheck = false;
 let trueCheckCount = 0;
 let trueCheckList = [];
 console.log("allWindows.length = ",allWindows.length); // too many iterations after this | = 9
+
+
+// for (let i=0;i<allWindows.length;i++) { // allWindows.length = 9 as there are 9 open windows | next get tabs in each:
+//     for (j=0;j<allWindows[i])
+// }
+
 for (let i=0;i<allWindows.length;i++) { // 0 to 9
     
     console.log(allWindows[i].id); // prints Window id (Group)
@@ -85,7 +91,7 @@ for (let i=0;i<allWindows.length;i++) { // 0 to 9
         thisWindowId = allWindows[windowIdi].id;
         console.log("thisWindowId = ",allWindows[windowIdi].id);
         console.log("windowIdi = ",windowIdi); // 0-8 | Why repeats?
-        console.log(allWindows);
+        console.log(allWindows); //  Object  with 9 subsections each with the tabs for that window
         if (windowIdi==allWindows.length) {
             break;
         }
@@ -143,16 +149,16 @@ console.log(allWindowTabsReferencesString);
 let referenceString = "";
 
 
-for (let i=0;i<tabs.length;i++) {
-    console.log(tabs[i].title);
-    console.log(tabs[i].url);
-}
+// for (let i=0;i<tabs.length;i++) {
+//     console.log(tabs[i].title);
+//     console.log(tabs[i].url);
+// }
 
 for (let i=0;i<tabs.length;i++) {
     referenceString = referenceString + `[${tabs[i].title}](${tabs[i].url})`+"\n\n";
 }
 
-console.log(referenceString);
+// console.log(referenceString);
 
 const collator = new Intl.Collator();
 tabs.sort((a, b) => collator.compare(a.title, b.title));
@@ -191,7 +197,7 @@ button.addEventListener("click", async () => {
 }
 );
 
-console.log(trueCheckCount);
-console.log(trueCheckList);
+// console.log(trueCheckCount);
+// console.log(trueCheckList);
 console.log("allWindows.length = ",allWindows.length); // too many iterations after this
 console.log("allTabs.length = ", allTabs.length); // from line 65
