@@ -168,11 +168,11 @@ const elements = new Set();
 // console.log("line 18: elements:", elements);
 
 
-const iterator2 = elements.entries();
+// const iterator2 = elements.entries();
 
-console.log(iterator2);
+// console.log(iterator2);
 
-console.log("hi4");
+// console.log("hi4");
 
 console.log("line 25: elements.entries()",elements.entries());
 const entries = elements.entries();
