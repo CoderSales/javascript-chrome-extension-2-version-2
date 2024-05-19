@@ -72,7 +72,7 @@ for (let h=0; h<listOfWindowsOpen.length;h++) {
             // listOfTabsInThisWindow = [];
             stringOfTabsInThisWindow = stringOfTabsInThisWindow + '\n' + tabs[i].reference + '\n';
         }
-        totalString += stringOfTabsInThisWindow + '\n';
+        totalString += stringOfTabsInThisWindow + '\n' + '____' + '\n';
     }
 }
 
