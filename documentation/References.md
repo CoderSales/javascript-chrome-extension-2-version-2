@@ -1,6 +1,7 @@
 # References
 
 
+
 [Invoke-WebRequest Conent - Google Search](https://www.google.com/search?q=Invoke-WebRequest+Conent&oq=Invoke-WebRequest+Conent&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIJCAEQABgNGIAEMgkIAhAAGA0YgAQyCQgDEAAYDRiABDIJCAQQABgNGIAEMgkIBRAAGA0YgAQyCAgGEAAYDRgeMggIBxAAGA0YHjIICAgQABgNGB4yCAgJEAAYDRge0gEIOTM1M2owajeoAgCwAgA&sourceid=chrome&ie=UTF-8),[powershell)
 
 
@@ -75,6 +76,8 @@
 
 
 
+____
+
 
 
 
@@ -136,6 +139,8 @@
 
 
 
+
+____
 
 
 
@@ -257,6 +262,8 @@
 
 
 
+____
+
 
 
 
@@ -312,3 +319,61 @@
 
 [JavaScript Functions](https://www.w3schools.com/js/js_functions.asp)
 
+
+____
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[javascript-chrome-extension-2/documentation/References.md at main · CoderSales/javascript-chrome-extension-2](https://github.com/CoderSales/javascript-chrome-extension-2/blob/main/documentation/References.md)
+
+____
