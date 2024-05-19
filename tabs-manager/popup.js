@@ -60,8 +60,8 @@ let allWindowsTabsObject3 = {};
 for (let i = 0; i < listOfWindowsOpen.length ; i++) { // 0-2
     console.log('listOfWindowsOpen[i] =',listOfWindowsOpen[i]); // the 3 window numbers
     for (let j = 0; j <tabs.length; j++) {
-        console.log (i);
-        console.log (listOfWindowsOpen[i]); // windowId
+        // console.log (i);
+        // console.log (listOfWindowsOpen[i]); // windowId
 
         for (let k = 0; k < Object.values(listOfWindowsOpen[i]).length;k++) {
             if (listOfWindowsOpen[i] == tabs[j].windowId) {
