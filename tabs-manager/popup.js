@@ -92,15 +92,15 @@ for (let i = 0; i < listOfWindowsOpen.length ; i++) { // for each tab in the cur
     for (let j = 0; j < tabs.length; j++) {
         // let allthisWindowKeyValuePairs = {};
         // let thisWindowKeyValuePair={}
-        console.log(Object.keys(allWindowsTabsObject)[i]);
-        console.log(tabs[j].windowId);
+        // console.log(Object.keys(allWindowsTabsObject)[i]);
+        // console.log(tabs[j].windowId);
         let composite={};
         if (Object.keys(allWindowsTabsObject)[i] == tabs[j].windowId) {
             let thisWindow = tabs[j].windowId; // #
             let key = tabs[j].id;
             let value = tabs[j];
             composite = {key:value};
-            console.log(composite);
+            // console.log(composite);
         }
 
         // =composite;
