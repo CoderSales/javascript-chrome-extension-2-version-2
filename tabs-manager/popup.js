@@ -247,6 +247,14 @@ for (let i=0;i<allWindows.length;i++) { // 0 to 9
 
 console.log(allWindowTabsReferences);
 
+console.log(Object.keys(allWindowTabsReferences).length);
+
+for (let i=0;i<Object.keys(allWindowTabsReferences).length;i++) {
+    console.log(Object.keys(allWindowTabsReferences)[i]);
+    console.log(Object.values(allWindowTabsReferences)[i]);
+}
+
+
 console.log(allWindowTabsReferencesString);
 
 let referenceString = "";
