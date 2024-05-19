@@ -72,8 +72,11 @@ for (let h=0; h<listOfWindowsOpen.length;h++) {
             // listOfTabsInThisWindow = [];
             stringOfTabsInThisWindow = stringOfTabsInThisWindow + '\n' + tabs[i].reference + '\n';
         }
-        totalString += stringOfTabsInThisWindow + '\n' + '____' + '\n';
+        totalString += stringOfTabsInThisWindow + '\n';
     }
+    let linePerWindow = '____' + '\n';
+    console.log(linePerWindow);
+    totalString += linePerWindow;
 }
 
 console.log(totalString);
