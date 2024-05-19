@@ -37,6 +37,7 @@ for (let i=0; i<tabs.length;i++) {
         }
     }
 }
+console.log(tabs);
 let superString = '';
 let windowListOfTabs = [];
 let allWindowsTabsObject = {};
