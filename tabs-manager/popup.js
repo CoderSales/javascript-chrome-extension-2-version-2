@@ -53,10 +53,45 @@ for (let i = 0; i < listOfWindowsOpen.length ; i++) { // 0-2
 }
 console.log(allWindowsTabsObject);
 
+// Redo above list for object
+
+// let windowObjectOfTabs = {};
+// let allWindowsTabsObject3 = {};
+// for (let i = 0; i < listOfWindowsOpen.length ; i++) { // 0-2
+//     console.log('listOfWindowsOpen[i] =',listOfWindowsOpen[i]); // the 3 window numbers
+//     for (let j = 0; j <tabs.length; j++) {
+//         if (listOfWindowsOpen[i] == tabs[j].windowId) {
+//             windowListOfTabs.push(tabs[j].id);
+//         }
+//     } // push each tab-in-this-window to windowListOfTabs
+//     allWindowsTabsObject3[listOfWindowsOpen[i]]=windowObjectOfTabs;
+//     windowObjectOfTabs = [];
+
+// }
+// console.log(allWindowsTabsObject3);
+
+/*
+ * allWTO2 = 
+ * {
+ *      key : allthisWKVPairs={
+ *                              thisWKVP={ composite=key : value = tabs[j] }
+ *                              thisWKVP={ composite=key : value = tabs[j] }
+ *                              thisWKVP={ composite=key : value = tabs[j] }
+ *      },
+ *      key : 
+ *      key : 
+ * }
+ * 
+ * 
+ * 
+ */
+
 // get an object per window:
 let allWTO2={};
 for (let i = 0; i < listOfWindowsOpen.length ; i++) { // for each tab in the current window:
     for (let j = 0; j < tabs.length; j++) {
+        // let allthisWindowKeyValuePairs = {};
+        // let thisWindowKeyValuePair={}
         console.log(Object.keys(allWindowsTabsObject)[i]);
         console.log(tabs[j].windowId);
         let composite={};
@@ -67,7 +102,10 @@ for (let i = 0; i < listOfWindowsOpen.length ; i++) { // for each tab in the cur
             composite = {key:value};
             console.log(composite);
         }
-        allWTO2[listOfWindowsOpen[i]]=composite;
+
+        // =composite;
+        // allWTO2[listOfWindowsOpen[i]]=;
+        // thisWindowKeyValuePair={};
     }
 }
 console.log('allWTO2 =',allWTO2);
