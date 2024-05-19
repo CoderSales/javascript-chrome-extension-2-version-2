@@ -61,14 +61,6 @@ for (let i=0; i < allWindows.length;i++) {
     }
 }
 
-//    tabs[index].windowId  : { index :  }
-
-// {
-//     { windowId[0] : { # :  } }
-//     { windowId[1] : { # :  } }
-//     { windowId[2] : { # :  } }
-// }
-
 for (let i=0;i<allWindows.length;i++) {
     allWindowIds.push(allWindows[i].id);
     for (let j=0;j<allTabs.length;j++) {
@@ -76,66 +68,22 @@ for (let i=0;i<allWindows.length;i++) {
     }
 }
 
-/*
- *window[i] .tab[j]
- * window 0 . tab0
- * window 0 . tab1
- * window 0 . tab2
- * window 0 . tab3
- * window 0 . tab4
- * window 0 . tab5
- * window 0 . tab6
- * window 0 . tab7
- * window 0 . tab8
- * window 1 . tab0
- * window 1 . tab1
- * window 1 . tab2
- * window 1 . tab3
- * window 1 . tab4
- * window 1 . tab5
- * window 2 . tab0
- * window 2 . tab1
- * window 2 . tab2
- * window 2 . tab3
- * window 2 . tab4
- * window 2 . tab5
- * window 2 . tab6
- * window 2 . tab7
- */
-
-// let allWindowsObject = {
-//     id1 : {window[i=1].tab[j]};
-//     id2 : {};
-//     id3 : {};
-
-
-// };
-
 // new code:
 const windowIds = []; // WinIds version 2 | new variable
 
 // new loop:
-
 for (let i=0;i<allWindows.length;i++) {
     windowIds.push(allWindows[i].id);
 }
 
 console.log("windowsIds : ", windowIds);
 
-
-// working on this i --> j in interior loop (wip):
-
-// {}
-
-
 for (let i=0;i<allWindows.length;i++) {
     allWindowIds.push(allWindows[i].id);
     for (let j=0;j<allTabs.length;j++) {
         const tab = allTabs[j];
     }
 }
-
-
 
 console.log(allWindowIds);
 let trueCheck = false;
@@ -144,18 +92,6 @@ let trueCheckList = [];
 console.log("allWindows.length = ",allWindows.length); // too many iterations after this | = 9
 
 let winObject = {};
-
-// let winObjectExample = { 
-    
-//     1234234563 : { 
-//         tabId : {}
-//     } 
-
-// };
-
-// for (let i=0;i<allWindows.length;i++) { // allWindows.length = 9 as there are 9 open windows | next get tabs in each:
-//     for (j=0;j<allWindows[i])
-// }
 
 for (let i=0;i<allWindows.length;i++) { // 0 to 9
     
@@ -183,66 +119,6 @@ for (let i=0;i<allWindows.length;i++) { // 0 to 9
     }
     
     allWindowTabsReferences[allWindows[i].id] = thisWindowsTabsReferences;
-    // let thisWindowId = 0;
-    // let lastWindowId = 0;
-    // console.log(allWindowIds.length);
-    // console.log(allWindowIds);
-    // for (let windowIdi = 0; windowIdi< (allWindowIds.length-1); windowIdi++) {
-    //     console.log(allWindows[2].id);
-    //     // thisWindowId = allWindows[windowIdi].id;
-    //     // console.log("thisWindowId = ",allWindows[windowIdi].id);
-    //     // console.log("windowIdi = ",windowIdi); // 0-8 | Why repeats?
-    //     // console.log(allWindows); //  Object  with 9 subsections each with the tabs for that window
-    //     // if (windowIdi==allWindows.length) {
-    //     //     break;
-    //     // }
-    //     // if (thisWindowId != 0 ) {
-    //     //     const lastWindowId = thisWindowId-1;
-    //     // }
-        
-    //     // console.log(allWindows[i]);
-    //     // console.log(allWindows[i].id);
-    //     // console.log(allWindows[0].id);
-    //     // console.log(thisWindowId);
-    //     // console.log(allWindows[0]==thisWindowId);
-    //     // if (allWindows[0].id==thisWindowId) {
-    //     //     trueCheck=true;
-    //     //     trueCheckCount++;
-    //     //     console.log(thisWindowId);
-    //     //     trueCheckList .push(thisWindowId);
-    //     // } //  if first then push
-    //     // //but if not:
-    //     // else if (allWindows[0].id != thisWindowId) { // i.e. most cases
-    //     //     trueCheck=false;
-    //     //     console.log("thisWindowId = ",thisWindowId);
-    //     //     trueCheckList.push(thisWindowId);
-    //     // }
-        
-    //     // console.log("allWindows[0].id", allWindows[0].id); // ...204
-    //     // console.log("thisWindowId",thisWindowId);
-        
-    //     // if (allWindows[0].id != thisWindowId) { // if this is NOT the first of the window id's:
-    //     //     if(allWindows[i-1] == (thisWindowId-1) && allWindows[i] == thisWindowId) {
-    //     //         const windowsIdToAddToString = thisWindowId;
-    //     //         windowsIdToAddToString =+ thisWindowsTabsReferencesString + '\n\n' + windowsIdToAddToString + '\n\n';
-    //     //         console.log('hi');
-    //     //     }
-    //     // } else if (allWindows[0].id == thisWindowId) { // if this is the first of the window id's:
-    //     //     // if(allWindows[i-1].id == lastWindowId && allWindows[i].id == thisWindowId) {
-    //     //         if(allWindows[i-1] == lastWindowId && allWindows[i] == thisWindowId) {
-    //     //             const windowsIdToAddToString = thisWindowId;
-    //     //             thisWindowsTabsReferencesString = windowsIdToAddToString + '\n\n' + thisWindowsTabsReferencesString + '\n\n';
-    //     //         }
-    //     // }
-        
-    //     // console.log(thisWindowsTabsReferencesString);
-
-    //     // [allWindowsObject].push(thisWindowsTabsReferencesString);
-
-    //     // allWindowTabsReferencesString = allWindowTabsReferencesString + thisWindowsTabsReferencesString;
-        
-    //     // console.log(allWindows[0].id);
-    // }
 }
 
 console.log(allWindowTabsReferences);
@@ -254,13 +130,11 @@ for (let i=0;i<Object.keys(allWindowTabsReferences).length;i++) {
     console.log(Object.values(allWindowTabsReferences)[i]);
 }
 
-
 console.log(Object.keys(allWindowTabsReferences).length);
 
 let windowStringOfTabReferences = '';
 
 console.log('allWindowTabsReferences =', allWindowTabsReferences);
-
 
 let allWindowStrings = '';
 
@@ -306,17 +180,48 @@ console.log(allWindowStrings); // newer String
 
 let referenceString = "";
 
-
-// for (let i=0;i<tabs.length;i++) {
-//     console.log(tabs[i].title);
-//     console.log(tabs[i].url);
-// }
-
 for (let i=0;i<tabs.length;i++) {
     referenceString = referenceString + `[${tabs[i].title}](${tabs[i].url})`+"\n\n";
 }
 
-// console.log(referenceString);
+console.log(referenceString);
+
+//
+
+let totalString = '';
+console.log(Object.keys(allWindowTabsReferences));
+console.log(Object.keys(allWindowTabsReferences)[0]);
+console.log(Object.keys(allWindowTabsReferences)[1]);
+console.log(Object.keys(allWindowTabsReferences)[2]);
+
+for (let h=0;h<Object.keys(allWindowTabsReferences).length;h++) {
+
+    let windowIds2= Object.keys(allWindowTabsReferences);
+    console.log(Object.keys(allWindowTabsReferences));
+    totalString = totalString + '\n\n' + `${Object.keys(allWindowTabsReferences)[h]}` + '\n\n';
+    
+    let referenceStringPerWindow = "";
+
+    console.log(tabs.length);
+    console.log(tabs);
+    console.log(tabs[h].windowId);
+
+    // let tabkey = tabs[h].windowId
+
+    // for (let h2=0;h2<tabs[h].)
+
+    for (let i=0;i<tabs.length;i++) {
+        referenceStringPerWindow = referenceStringPerWindow + `[${tabs[i].title}](${tabs[i].url})`+"\n\n";
+    }
+
+    console.log(referenceStringPerWindow);
+
+    totalString = totalString + referenceStringPerWindow;
+}
+
+console.log('totalString = ', totalString);
+
+//
 
 const collator = new Intl.Collator();
 tabs.sort((a, b) => collator.compare(a.title, b.title));
@@ -355,7 +260,5 @@ button.addEventListener("click", async () => {
 }
 );
 
-// console.log(trueCheckCount);
-// console.log(trueCheckList);
 console.log("allWindows.length = ",allWindows.length); // too many iterations after this
 console.log("allTabs.length = ", allTabs.length); // from line 65
