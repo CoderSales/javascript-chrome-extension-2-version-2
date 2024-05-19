@@ -1,7 +1,6 @@
 # References
 
 
-
 [Invoke-WebRequest Conent - Google Search](https://www.google.com/search?q=Invoke-WebRequest+Conent&oq=Invoke-WebRequest+Conent&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIJCAEQABgNGIAEMgkIAhAAGA0YgAQyCQgDEAAYDRiABDIJCAQQABgNGIAEMgkIBRAAGA0YgAQyCAgGEAAYDRgeMggIBxAAGA0YHjIICAgQABgNGB4yCAgJEAAYDRge0gEIOTM1M2owajeoAgCwAgA&sourceid=chrome&ie=UTF-8),[powershell)
 
 
@@ -76,6 +75,16 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
 ____
 
 
@@ -102,6 +111,16 @@ ____
 
 
 [powershell - Display all content with Invoke-WebRequest - Stack Overflow](https://stackoverflow.com/questions/40702328/display-all-content-with-invoke-webrequest)
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -262,6 +281,16 @@ ____
 
 
 
+
+
+
+
+
+
+
+
+
+
 ____
 
 
@@ -320,6 +349,16 @@ ____
 [JavaScript Functions](https://www.w3schools.com/js/js_functions.asp)
 
 
+
+
+
+
+
+
+
+
+
+
 ____
 
 
@@ -375,5 +414,152 @@ ____
 
 
 [javascript-chrome-extension-2/documentation/References.md at main · CoderSales/javascript-chrome-extension-2](https://github.com/CoderSales/javascript-chrome-extension-2/blob/main/documentation/References.md)
+
+
+
+
+
+
+
+
+
+
+____
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[chrome extension need more event listeners - Google Search](https://www.google.com/search?q=chrome+extension+need+more+event+listerners&newwindow=1&sca_esv=345267d81bec8f30&sca_upv=1&sxsrf=ADLYWILAIFdDCNC5DYijlToFhMrH86JsTg%3A1716127424485&ei=wAZKZvGiHa2YhbIPgYWBsAQ&ved=0ahUKEwjxgprs8JmGAxUtTEEAHYFCAEYQ4dUDCBA&uact=5&oq=chrome+extension+need+more+event+listerners&gs_lp=Egxnd3Mtd2l6LXNlcnAiK2Nocm9tZSBleHRlbnNpb24gbmVlZCBtb3JlIGV2ZW50IGxpc3Rlcm5lcnMyBxAhGKABGAoyBxAhGKABGAoyBRAhGJ8FSMUjUABY2yJwAHgBkAEAmAFboAGtDqoBAjI2uAEDyAEA-AEBmAIaoALCD8ICCxAAGIAEGJECGIoFwgIFEAAYgATCAgoQABiABBgUGIcCwgIGEAAYFhgewgIIEAAYFhgeGA_CAgsQABiABBiGAxiKBcICBRAhGKABwgIEECEYFZgDAOIDBRIBMSBAkgcCMjagB8xp&sclient=gws-wiz-serp)
+
+
+[javascript - Adding Multiple Event Listeners in Chrome Extension - Stack Overflow](https://stackoverflow.com/questions/62919639/adding-multiple-event-listeners-in-chrome-extension)
+
+
+
+
+____
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[stop chrome extension exection to take user input - Google Search](https://www.google.com/search?q=stop+chrome+extension+exection+to+take+user+input&oq=stop+chrome+extension+exection+to+take+user+input&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIJCAEQIRgKGKAB0gEJMTExMzJqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8)
+
+
+[chrome.scripting  |  API  |  Chrome for Developers](https://developer.chrome.com/docs/extensions/reference/api/scripting)
+
+
+[javascript - chrome-extension: wait for input from user - Stack Overflow](https://stackoverflow.com/questions/24901047/chrome-extension-wait-for-input-from-user)
 
 ____
