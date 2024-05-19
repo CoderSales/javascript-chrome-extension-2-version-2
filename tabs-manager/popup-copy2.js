@@ -25,11 +25,13 @@ const tabs = await chrome.tabs.query({
       "https://flexiple.com/*"
     ]
 }); // Array
+console.log(tabs);
 let listOfWindowsOpen = [];
 for (let i=0; i<tabs.length;i++) {
     if (i==0) {
         listOfWindowsOpen.push(tabs[i].windowId)
     }
+
     if (i>=1) {
         if (tabs[i-1].windowId != tabs[i].windowId) { // if new windowId, push it to list, increment by 1
             listOfWindowsOpen.push(tabs[i].windowId)
@@ -37,44 +39,29 @@ for (let i=0; i<tabs.length;i++) {
         }
     }
 }
+
 let superString = '';
+
 let windowListOfTabs = [];
-let allWindowsTabsObject = {};
+
+// for each window:
 for (let i = 0; i < listOfWindowsOpen.length ; i++) { // 0-2
+    
     console.log('listOfWindowsOpen[i] =',listOfWindowsOpen[i]); // the 3 window numbers
-    for (let j = 0; j <tabs.length; j++) {
+
+    // create a list for that window:
+    // for all the tabs, go through them and make a list of just the ones with this windowId:
+    for (let j = 0; j < tabs.length;j++){//2;j++){//tabs.length; j++) {
         if (listOfWindowsOpen[i] == tabs[j].windowId) {
             windowListOfTabs.push(tabs[j].id);
         }
     } // push each tab-in-this-window to windowListOfTabs
-    allWindowsTabsObject[listOfWindowsOpen[i]]=windowListOfTabs;
-    windowListOfTabs = [];
-
+    
 }
-console.log(allWindowsTabsObject);
 
-// get an object per window:
-let allWTO2={};
-for (let i = 0; i < listOfWindowsOpen.length ; i++) { // for each tab in the current window:
-    for (let j = 0; j < tabs.length; j++) {
-        console.log(Object.keys(allWindowsTabsObject)[i]);
-        console.log(tabs[j].windowId);
-        let composite={};
-        if (Object.keys(allWindowsTabsObject)[i] == tabs[j].windowId) {
-            let thisWindow = tabs[j].windowId; // #
-            let key = tabs[j].id;
-            let value = tabs[j];
-            composite = {key:value};
-            console.log(composite);
-        }
-        allWTO2[listOfWindowsOpen[i]]=composite;
-    }
-}
-console.log('allWTO2 =',allWTO2);
+console.log('windowListOfTabs =',windowListOfTabs);
+
 console.log('superString:\n', superString);
-
-
-
 
 
 const collator = new Intl.Collator();
