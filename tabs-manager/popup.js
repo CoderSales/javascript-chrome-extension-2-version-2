@@ -183,8 +183,8 @@ for (let i=0;i<allWindows.length;i++) { // 0 to 9
     }
     
     allWindowTabsReferences[allWindows[i].id] = thisWindowsTabsReferences;
-    let thisWindowId = 0;
-    let lastWindowId = 0;
+    // let thisWindowId = 0;
+    // let lastWindowId = 0;
     // console.log(allWindowIds.length);
     // console.log(allWindowIds);
     // for (let windowIdi = 0; windowIdi< (allWindowIds.length-1); windowIdi++) {
@@ -247,7 +247,54 @@ for (let i=0;i<allWindows.length;i++) { // 0 to 9
 
 console.log(allWindowTabsReferences);
 
+console.log(Object.keys(allWindowTabsReferences).length);
+
+let windowStringOfTabReferences = '';
+
+console.log('allWindowTabsReferences =', allWindowTabsReferences);
+
+
+let allWindowStrings = '';
+
+for (let i=0;i<Object.keys(allWindowTabsReferences).length;i++) {
+    console.log(Object.keys(allWindowTabsReferences)[i]);
+    console.log(Object.values(allWindowTabsReferences)[i]);
+    // console.log(Object.values(allWindowTabsReferences[i]));
+    console.log(   Object.values(allWindowTabsReferences)    );
+    // console.log(   Math.max(Object.keys(Object.values(allWindowTabsReferences)))    );
+    console.log(   Object.keys(Object.values(allWindowTabsReferences))    );
+    for (let k=0; k<Object.keys(Object.values(allWindowTabsReferences)).length;k++) {
+        console.log(Object.keys(Object.values(allWindowTabsReferences))[k]);
+    }
+    let allWindowTabsReferencesValues=Object.values(allWindowTabsReferences);
+    // console.log(   Object.values(allWindowTabsReferencesValues)    );
+    
+    let allWindowTabsReferencesValuesKeys = Object.keys(allWindowTabsReferencesValues); // 0:"0", 1:"1", 2:"2" Objects
+    console.log(Object.keys(allWindowTabsReferencesValuesKeys));
+
+    console.log(allWindowTabsReferences);
+    // console.log(allWindowTabsReferences.   key.    key?);
+    //                                                      1 , 2, 3
+    // console.log(Object.values(allWindowTabsReferences.allWindows[i].thisWindowsTabsReferences[j]));
+    
+    // for (let j=0;j<Object.values(allWindowTabsReferences[i]);j++) {
+    let thisWindowArray=Object.keys(allWindowTabsReferences);
+    console.log(Object.keys(allWindowTabsReferences));
+    console.log(thisWindowArray.length);
+    for (let j=0;j<thisWindowArray.length;j++) {
+        // console.log(Object.values(allWindowTabsReferences.allWindows[i].thisWindowsTabsReferences[j]));
+        windowStringOfTabReferences = '\n' + `(${Object.keys(allWindowTabsReferences)[j]})[${Object.values(allWindowTabsReferences)[j]})` +'\n';
+        // windowStringOfTabReferences = '\n' + `(${Object.keys(allWindowTabsReferences)[i]})[${Object.values(allWindowTabsReferences)[i]})` +'\n';
+    }
+    allWindowStrings = allWindowStrings + windowStringOfTabReferences;
+}
+
+
 console.log(allWindowTabsReferencesString);
+
+console.log(windowStringOfTabReferences); // new String
+
+console.log(allWindowStrings); // newer String
 
 let referenceString = "";
 
