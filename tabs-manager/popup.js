@@ -38,6 +38,46 @@ for (let i=0; i<tabs.length;i++) {
     }
 }
 console.log(tabs);
+
+
+
+let quickList = [];
+let reference='';
+let quickString = '';
+for (let i=0;i<tabs.length;i++) {
+    reference=`[${tabs[i].title}](${tabs[i].url}`;
+    console.log(`[${tabs[i].title}](${tabs[i].url}`);
+    quickList.push(reference);
+    
+    let keyValuePairToAdd = null;
+    for (let j=0;j<tabs.length;j++){
+        let key='reference';
+        let value=reference;
+        keyValuePairToAdd = {key:value};
+    }
+    tabs[i].reference=reference;
+    quickString = quickString + '\n' + reference + '\n';
+    console.log(tabs[i]);
+}
+
+console.log(quickString);
+let totalString = '';
+for (let h=0; h<listOfWindowsOpen.length;h++) {
+    for (let i=0; i<tabs.length; i++){
+        // let listOfTabsInThisWindow = [];
+        let stringOfTabsInThisWindow = '';
+        if (listOfWindowsOpen[h] == tabs[i].windowId) {
+            console.log(tabs[i].reference);
+            console.log(tabs[i].windowId);
+            // listOfTabsInThisWindow = [];
+            stringOfTabsInThisWindow = stringOfTabsInThisWindow + '\n' + tabs[i].reference + '\n';
+        }
+        totalString += stringOfTabsInThisWindow + '\n';
+    }
+}
+
+console.log(totalString);
+
 let superString = '';
 let windowListOfTabs = [];
 let allWindowsTabsObject = {};
