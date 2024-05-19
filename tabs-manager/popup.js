@@ -55,20 +55,25 @@ console.log(allWindowsTabsObject);
 
 // Redo above list for object
 
-// let windowObjectOfTabs = {};
-// let allWindowsTabsObject3 = {};
-// for (let i = 0; i < listOfWindowsOpen.length ; i++) { // 0-2
-//     console.log('listOfWindowsOpen[i] =',listOfWindowsOpen[i]); // the 3 window numbers
-//     for (let j = 0; j <tabs.length; j++) {
-//         if (listOfWindowsOpen[i] == tabs[j].windowId) {
-//             windowListOfTabs.push(tabs[j].id);
-//         }
-//     } // push each tab-in-this-window to windowListOfTabs
-//     allWindowsTabsObject3[listOfWindowsOpen[i]]=windowObjectOfTabs;
-//     windowObjectOfTabs = [];
+let windowObjectOfTabs = {};
+let allWindowsTabsObject3 = {};
+for (let i = 0; i < listOfWindowsOpen.length ; i++) { // 0-2
+    console.log('listOfWindowsOpen[i] =',listOfWindowsOpen[i]); // the 3 window numbers
+    for (let j = 0; j <tabs.length; j++) {
+        console.log (i);
+        console.log (listOfWindowsOpen[i]); // windowId
 
-// }
-// console.log(allWindowsTabsObject3);
+        for (let k = 0; k < Object.values(listOfWindowsOpen[i]).length;k++) {
+            if (listOfWindowsOpen[i] == tabs[j].windowId) {
+                windowObjectOfTabs[k] = tabs[j].id;
+            }
+        }
+
+    } // push each tab-in-this-window to windowListOfTabs
+    allWindowsTabsObject3[listOfWindowsOpen[i]]=windowObjectOfTabs;
+    windowObjectOfTabs = [];
+}
+console.log(allWindowsTabsObject3);
 
 /*
  * allWTO2 = 
@@ -111,9 +116,34 @@ for (let i = 0; i < listOfWindowsOpen.length ; i++) { // for each tab in the cur
 console.log('allWTO2 =',allWTO2);
 console.log('superString:\n', superString);
 
+// pass in pre 54 return tabs
+
+// for (){
+
+// }
+
+// let arg = tab.id
+// let argTabDotId = ;
+function passInIdReturnTab(argTabDotId) {
+    let tab = null;
+    for (let i = 0; i<tabs.length;i++) {
+        if ( tabs[i].windowId == argTabDotId ) {
+            tab = tabs[i];
+            break;
+        }
+    }
+    return tab;
+}
 
 
+for (let i=0; i < windowListOfTabs.length; i++) {
+    for (let j=0; j < allWindowsTabsObject.length; j++) {
+        let argTabDotId = tabs[j].windowId;
+        allWindowsTabsObject.windowListOfTabs[i] = passInIdReturnTab(argTabDotId); // now we have swapped in the object 
+    }
+}
 
+console.log(allWindowsTabsObject);
 
 const collator = new Intl.Collator();
 tabs.sort((a, b) => collator.compare(a.title, b.title));
