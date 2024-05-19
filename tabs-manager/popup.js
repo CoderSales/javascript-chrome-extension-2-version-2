@@ -45,7 +45,7 @@ let quickList = [];
 let reference='';
 let quickString = '';
 for (let i=0;i<tabs.length;i++) {
-    reference=`[${tabs[i].title}](${tabs[i].url}`;
+    reference=`[${tabs[i].title}](${tabs[i].url})`;
     console.log(`[${tabs[i].title}](${tabs[i].url}`);
     quickList.push(reference);
     
