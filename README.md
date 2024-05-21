@@ -1,5 +1,12 @@
+# javascript-chrome-extension-2-version-2
+
+Base on / continuation of
+
 # javascript-chrome-extension-2
-javascript-chrome-extension-2
+
+## Description
+
+javascript-chrome-extension-2-version-2
 
 [First Chrome Extension Repository with References](https://github.com/CoderSales/automate-copying-open-urls-javascript/tree/main)
 
