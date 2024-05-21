@@ -22,7 +22,8 @@ const tabs = await chrome.tabs.query({
       "https://ftp.nmr.mgh.harvard.edu/*",
       "https://pubmed.ncbi.nlm.nih.g/*",
       "https://www.javatpoint.com/*",
-      "https://flexiple.com/*"
+      "https://flexiple.com/*",
+      "https://docs.github.com/*"
     ]
 }); // Array
 let listOfWindowsOpen = [];
