@@ -28,6 +28,7 @@ const tabs = await chrome.tabs.query({
       "https://code.visualstudio.com/docs/*"
     ]
 }); // Array
+
 let listOfWindowsOpen = [];
 for (let i=0; i<tabs.length;i++) {
     if (i==0) {
@@ -40,6 +41,7 @@ for (let i=0; i<tabs.length;i++) {
         }
     }
 }
+
 console.log(tabs);
 
 
@@ -63,6 +65,8 @@ for (let i=0;i<tabs.length;i++) {
     // console.log(tabs[i]);
 }
 
+
+
 console.log(quickString);
 let totalString = '';
 for (let h=0; h<listOfWindowsOpen.length;h++) {
@@ -81,6 +85,8 @@ for (let h=0; h<listOfWindowsOpen.length;h++) {
     totalString += linePerWindow;
 }
 
+
+
 console.log(totalString);
 
 let superString = '';
@@ -97,6 +103,7 @@ for (let i = 0; i < listOfWindowsOpen.length ; i++) { // 0-2
     windowListOfTabs = [];
 
 }
+
 // console.log(allWindowsTabsObject);
 
 // Redo above list for object
@@ -119,6 +126,7 @@ for (let i = 0; i < listOfWindowsOpen.length ; i++) { // 0-2
     allWindowsTabsObject3[listOfWindowsOpen[i]]=windowObjectOfTabs;
     windowObjectOfTabs = [];
 }
+
 // console.log(allWindowsTabsObject3);
 
 /*
@@ -159,6 +167,7 @@ for (let i = 0; i < listOfWindowsOpen.length ; i++) { // for each tab in the cur
         // thisWindowKeyValuePair={};
     }
 }
+
 // console.log('allWTO2 =',allWTO2);
 // console.log('superString:\n', superString);
 
