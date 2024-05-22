@@ -49,7 +49,7 @@ let reference='';
 let quickString = '';
 for (let i=0;i<tabs.length;i++) {
     reference=`[${tabs[i].title}](${tabs[i].url})`;
-    console.log(`[${tabs[i].title}](${tabs[i].url}`);
+    // console.log(`[${tabs[i].title}](${tabs[i].url}`);
     quickList.push(reference);
     
     let keyValuePairToAdd = null;
@@ -60,7 +60,7 @@ for (let i=0;i<tabs.length;i++) {
     }
     tabs[i].reference=reference;
     quickString = quickString + '\n' + reference + '\n';
-    console.log(tabs[i]);
+    // console.log(tabs[i]);
 }
 
 console.log(quickString);
@@ -70,15 +70,14 @@ for (let h=0; h<listOfWindowsOpen.length;h++) {
         // let listOfTabsInThisWindow = [];
         let stringOfTabsInThisWindow = '';
         if (listOfWindowsOpen[h] == tabs[i].windowId) {
-            console.log(tabs[i].reference);
-            console.log(tabs[i].windowId);
+            // console.log(tabs[i].reference);
+            // console.log(tabs[i].windowId);
             // listOfTabsInThisWindow = [];
             stringOfTabsInThisWindow = stringOfTabsInThisWindow + '\n' + tabs[i].reference + '\n';
         }
         totalString += stringOfTabsInThisWindow + '\n';
     }
     let linePerWindow = '____' + '\n';
-    console.log(linePerWindow);
     totalString += linePerWindow;
 }
 
@@ -88,7 +87,7 @@ let superString = '';
 let windowListOfTabs = [];
 let allWindowsTabsObject = {};
 for (let i = 0; i < listOfWindowsOpen.length ; i++) { // 0-2
-    console.log('listOfWindowsOpen[i] =',listOfWindowsOpen[i]); // the 3 window numbers
+    // console.log('listOfWindowsOpen[i] =',listOfWindowsOpen[i]); // the 3 window numbers
     for (let j = 0; j <tabs.length; j++) {
         if (listOfWindowsOpen[i] == tabs[j].windowId) {
             windowListOfTabs.push(tabs[j].id);
@@ -98,14 +97,14 @@ for (let i = 0; i < listOfWindowsOpen.length ; i++) { // 0-2
     windowListOfTabs = [];
 
 }
-console.log(allWindowsTabsObject);
+// console.log(allWindowsTabsObject);
 
 // Redo above list for object
 
 let windowObjectOfTabs = {};
 let allWindowsTabsObject3 = {};
 for (let i = 0; i < listOfWindowsOpen.length ; i++) { // 0-2
-    console.log('listOfWindowsOpen[i] =',listOfWindowsOpen[i]); // the 3 window numbers
+    // console.log('listOfWindowsOpen[i] =',listOfWindowsOpen[i]); // the 3 window numbers
     for (let j = 0; j <tabs.length; j++) {
         // console.log (i);
         // console.log (listOfWindowsOpen[i]); // windowId
@@ -120,7 +119,7 @@ for (let i = 0; i < listOfWindowsOpen.length ; i++) { // 0-2
     allWindowsTabsObject3[listOfWindowsOpen[i]]=windowObjectOfTabs;
     windowObjectOfTabs = [];
 }
-console.log(allWindowsTabsObject3);
+// console.log(allWindowsTabsObject3);
 
 /*
  * allWTO2 = 
@@ -160,8 +159,8 @@ for (let i = 0; i < listOfWindowsOpen.length ; i++) { // for each tab in the cur
         // thisWindowKeyValuePair={};
     }
 }
-console.log('allWTO2 =',allWTO2);
-console.log('superString:\n', superString);
+// console.log('allWTO2 =',allWTO2);
+// console.log('superString:\n', superString);
 
 // pass in pre 54 return tabs
 
@@ -190,7 +189,7 @@ for (let i=0; i < windowListOfTabs.length; i++) {
     }
 }
 
-console.log(allWindowsTabsObject);
+// console.log(allWindowsTabsObject);
 
 const collator = new Intl.Collator();
 tabs.sort((a, b) => collator.compare(a.title, b.title));
