@@ -300,3 +300,4 @@ cython_debug/
 
 .vscode
 .vscode/*
+other/*
