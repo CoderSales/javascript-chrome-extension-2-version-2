@@ -22,11 +22,10 @@ const tabs = await chrome.tabs.query({
       "https://ftp.nmr.mgh.harvard.edu/*",
       "https://pubmed.ncbi.nlm.nih.g/*",
       "https://www.javatpoint.com/*",
-      "https://flexiple.com/*"
+      "https://flexiple.com/*",
+      "https://docs.github.com/*"
     ]
 }); // Array
-// must add input to manifest permissions to use script.
-
 let listOfWindowsOpen = [];
 for (let i=0; i<tabs.length;i++) {
     if (i==0) {
@@ -65,9 +64,7 @@ for (let i=0;i<tabs.length;i++) {
 console.log(quickString);
 let totalString = '';
 for (let h=0; h<listOfWindowsOpen.length;h++) {
-    let tabsPerWindowToCloseList = [];
     for (let i=0; i<tabs.length; i++){
-
         // let listOfTabsInThisWindow = [];
         let stringOfTabsInThisWindow = '';
         if (listOfWindowsOpen[h] == tabs[i].windowId) {
@@ -75,67 +72,14 @@ for (let h=0; h<listOfWindowsOpen.length;h++) {
             console.log(tabs[i].windowId);
             // listOfTabsInThisWindow = [];
             stringOfTabsInThisWindow = stringOfTabsInThisWindow + '\n' + tabs[i].reference + '\n';
-            tabsPerWindowToCloseList += tabs[i];
         }
         totalString += stringOfTabsInThisWindow + '\n';
     }
     let linePerWindow = '____' + '\n';
-
-    // closeWindow:
-    // check first:
-    console.log(`if want to close the following windows, press ${h}`);
-    for (let l=0;l<tabs.length;l++) {
-        if (listOfWindowsOpen[h] == tabs[l].windowId) {
-            console.log(tabs[l].reference);
-        }
-    }
     console.log(linePerWindow);
     totalString += linePerWindow;
 }
 
-// user input: ('y'/'N')
-
-// var context_id = -1;
-
-// chrome.input.ime.onFocus.addListener(function(context) {
-//     context_id = context.contextID;
-// });
-
-let keyInputy = await chrome.input.ime.onKeyEvent.addListener(
-    function(engineID, keyData) {
-        let hList=[];
-        for(let h =0;h<listOfTabsInThisWindow.length;h++){
-            hList.push(h);
-        }
-        if (keyData.key.match([0-listOfTabsInThisWindow.length])) {
-        return KeyboardEvent.key;
-        } else if (keyData.key.match('N')){
-        return false;
-        } else {
-        return false;
-        }
-    }
-);
-
-// userInput = keyData.key.match('y');
-
-
-
-
-
-// if (userInput=='y') {
-for(let i=0; i<listOfWindowsOpen.length; i++){
-    if (keyInputy==i) {
-        let toClose = await chrome.tabs[i].remove({
-            tabIds : tabsPerWindowToCloseList,
-        });
-        toClose;
-    } else if (keyInputy=='N') {
-        console.log('Okay, we will not close these tabs, so.');
-    } else {
-        console.log('That was not a y for yes, so these tabs will remain open.');
-    }
-}
 console.log(totalString);
 
 let superString = '';
