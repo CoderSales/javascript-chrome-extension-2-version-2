@@ -15,7 +15,9 @@
         "https://developer.chrome.com/*",
         "https://github.com/",
         "https://stackoverflow.com/",
-        "https://www.w3schools.com/"
+        "https://www.w3schools.com/",
+        "https://code.visualstudio.com/*",
+        "https://code.visualstudio.com/docs/*"
     ],
     "permissions": [
         "tabGroups",
