@@ -25,7 +25,9 @@ const tabs = await chrome.tabs.query({
       "https://flexiple.com/*",
       "https://docs.github.com/*",
       "https://code.visualstudio.com/*",
-      "https://code.visualstudio.com/docs/*"
+      "https://code.visualstudio.com/docs/*",
+      "https://www.oracle.com/java/*",
+      "https://docs.oracle.com/*"
     ]
 }); // Array
 
