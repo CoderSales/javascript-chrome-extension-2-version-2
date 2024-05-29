@@ -30,7 +30,8 @@ const tabs = await chrome.tabs.query({
       "https://docs.oracle.com/*",
       "https://pwskills.com/*",
       "https://www.homeandlearn.co.uk/java/*",
-      "https://www.codeproject.com/Articles/*"
+      "https://www.codeproject.com/Articles/*",
+      "https://www.codingame.com/*"
     ]
 }); // Array
 
