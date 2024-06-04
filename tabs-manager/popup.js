@@ -98,13 +98,13 @@ for (let j=0 ; j<listOfWindowsOpen.length;) {
                 thisWinList.push(listOfWindowsOpen[winCount]);
             }
             // console.log(thisWinList); // Array(1) V _| > ( 0: 1314654654 ) | logged for each open window | latest commented
-            if (winCount<listOfWindowsOpen.length){
-                if (listOfWindowsOpen[i+1] !=listOfWindowsOpen[i]){
-                    quickString+="\n____\n";
-                }
-            } else if (winCount == listOfWindowsOpen.length){
-                quickString+="\n____\n";
-            }
+            // if (winCount<listOfWindowsOpen.length){
+                // if (listOfWindowsOpen[i+1] !=listOfWindowsOpen[i]){
+                //     quickString+="\n____\n";
+                // }
+            // } if (winCount == listOfWindowsOpen.length){
+                // quickString+="\n____\n";
+            // }
             winCount++;
         }
         //  i++;
