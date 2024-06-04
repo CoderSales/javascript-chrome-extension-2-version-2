@@ -79,7 +79,7 @@ for (let j=0 ; j<listOfWindowsOpen.length;) {
                     keyValuePairToAdd = {key:value}; // 3 {key:value} pair, assemble!
                 }
                 tabs[i].reference=reference; // put that key value pair, called reference into tabs at reference // without using keyValuePairToAdd ?
-                quickString = quickString + '\n' + reference + '\n'; // now, add quickString and reference to quickstring
+                quickString = quickString + reference + '\n'; // now, add quickString and reference to quickstring
                 for (let i2=0;i2<tabs.length;i2++) { //  x = i2 | something = tabs |
                     // what are we searching for here?
                     // 
