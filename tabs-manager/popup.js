@@ -357,7 +357,7 @@ for (let h=0; h<listOfWindowsOpen.length;h++) {
     for (let i=0; i<tabs.length; i++){
         let stringOfTabsInThisWindow = '';
         if (listOfWindowsOpen[h] == tabs[i].windowId) {
-            stringOfTabsInThisWindow = stringOfTabsInThisWindow + '\ntest1' + tabs[i].reference; // add line break between references for each tab in window
+            stringOfTabsInThisWindow = stringOfTabsInThisWindow + '\n' + tabs[i].reference; // add line break between references for each tab in window
         }
         if (listOfWindowsOpen[h] == tabs[i].windowId) { // fix excess line breaks by moving this line inside if statement
             totalString += stringOfTabsInThisWindow + '\n'; // add line breaks between references for each tab in window | adds excess line breaks in output | TODO: Remove
