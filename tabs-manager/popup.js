@@ -357,11 +357,11 @@ for (let h=0; h<listOfWindowsOpen.length;h++) {
     for (let i=0; i<tabs.length; i++){
         let stringOfTabsInThisWindow = '';
         if (listOfWindowsOpen[h] == tabs[i].windowId) {
-            stringOfTabsInThisWindow = stringOfTabsInThisWindow + '\n' + tabs[i].reference + '\n';
+            stringOfTabsInThisWindow = stringOfTabsInThisWindow + '\n' + tabs[i].reference; // add line break between references for each tab in window
         }
-        totalString += stringOfTabsInThisWindow + '\n';
+        totalString += stringOfTabsInThisWindow + '\n'; // add line breaks between references for each tab in window
     }
-    let linePerWindow = '____' + '\n';
+    let linePerWindow = '____';
     totalString += linePerWindow;
 }
 
