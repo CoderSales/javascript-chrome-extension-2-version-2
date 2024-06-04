@@ -357,9 +357,9 @@ for (let h=0; h<listOfWindowsOpen.length;h++) {
     for (let i=0; i<tabs.length; i++){
         let stringOfTabsInThisWindow = '';
         if (listOfWindowsOpen[h] == tabs[i].windowId) {
-            stringOfTabsInThisWindow = stringOfTabsInThisWindow + '\n' + tabs[i].reference; // add line break between references for each tab in window
+            stringOfTabsInThisWindow = stringOfTabsInThisWindow + '\ntest1' + tabs[i].reference; // add line break between references for each tab in window
         }
-        totalString += stringOfTabsInThisWindow + '\n'; // add line breaks between references for each tab in window
+        totalString += stringOfTabsInThisWindow + '\ntest2'; // add line breaks between references for each tab in window | adds excess line breaks in output | TODO: Remove
     }
     let linePerWindow = '____';
     totalString += linePerWindow;
