@@ -363,7 +363,7 @@ for (let h=0; h<listOfWindowsOpen.length;h++) {
             totalString += stringOfTabsInThisWindow + '\n'; // add line breaks between references for each tab in window | adds excess line breaks in output
         }
     }
-    let linePerWindow = '____' + '\n'; // add this line break so that there is a line break after each horizontal rule before the first tab in each window
+    let linePerWindow = '\n' + '____' + '\n'; // add this line break so that there is a line break after each horizontal rule before the first tab in each window
     totalString += linePerWindow;
 }
 
