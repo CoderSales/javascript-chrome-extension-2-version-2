@@ -360,7 +360,7 @@ for (let h=0; h<listOfWindowsOpen.length;h++) {
             stringOfTabsInThisWindow = stringOfTabsInThisWindow + '\n' + tabs[i].reference; // add line break between references for each tab in window
         }
         if (listOfWindowsOpen[h] == tabs[i].windowId) { // fix excess line breaks by moving this line inside if statement
-            totalString += stringOfTabsInThisWindow + '\n'; // add line breaks between references for each tab in window | adds excess line breaks in output | TODO: Remove
+            totalString += stringOfTabsInThisWindow + '\n'; // add line breaks between references for each tab in window | adds excess line breaks in output
         }
     }
     let linePerWindow = '____' + '\n'; // add this line break so that there is a line break after each horizontal rule before the first tab in each window
