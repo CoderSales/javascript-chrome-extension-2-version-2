@@ -36,7 +36,8 @@ const tabs = await chrome.tabs.query({
       "https://sentry.io/*",
       "https://www.calculatorsoup.com/*",
       "https://ioflood.com/*",
-      "https://www.programiz.com/*"
+      "https://www.programiz.com/*",
+      "https://www.naukri.com/*"
     ]
 }); // url Array
 let listOfWindowsOpen = [];
