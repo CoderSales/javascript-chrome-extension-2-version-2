@@ -27,6 +27,7 @@ const tabs = await chrome.tabs.query({
       "https://code.visualstudio.com/*",
       "https://code.visualstudio.com/docs/*",
       "https://www.oracle.com/java/*",
+      "https://www.oracle.com/*"
       "https://docs.oracle.com/*",
       "https://pwskills.com/*",
       "https://www.homeandlearn.co.uk/java/*",
@@ -44,7 +45,8 @@ const tabs = await chrome.tabs.query({
       "https://javarush.com/*",
       "https://git-scm.com/*",
       "https://www.omnicalculator.com/*",
-      "https://answers.microsoft.com/*"
+      "https://answers.microsoft.com/*",
+      "https://www.java.com/*"
     ]
 }); // url Array
 let listOfWindowsOpen = [];
