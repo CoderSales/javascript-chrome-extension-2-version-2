@@ -27,7 +27,7 @@ const tabs = await chrome.tabs.query({
       "https://code.visualstudio.com/*",
       "https://code.visualstudio.com/docs/*",
       "https://www.oracle.com/java/*",
-      "https://www.oracle.com/*"
+      "https://www.oracle.com/*",
       "https://docs.oracle.com/*",
       "https://pwskills.com/*",
       "https://www.homeandlearn.co.uk/java/*",
