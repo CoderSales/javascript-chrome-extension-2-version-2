@@ -46,7 +46,8 @@ const tabs = await chrome.tabs.query({
       "https://git-scm.com/*",
       "https://www.omnicalculator.com/*",
       "https://answers.microsoft.com/*",
-      "https://www.java.com/*"
+      "https://www.java.com/*",
+      "https://www.tutorialspoint.com/*"
     ]
 }); // url Array
 let listOfWindowsOpen = [];
