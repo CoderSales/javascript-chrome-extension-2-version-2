@@ -47,7 +47,8 @@ const tabs = await chrome.tabs.query({
       "https://www.omnicalculator.com/*",
       "https://answers.microsoft.com/*",
       "https://www.java.com/*",
-      "https://www.rapidtables.com/*"
+      "https://www.rapidtables.com/*",
+      "https://www.educative.io/*"
     ]
 }); // url Array
 let listOfWindowsOpen = [];
