@@ -50,7 +50,8 @@ const tabs = await chrome.tabs.query({
       "https://www.rapidtables.com/*",
       "https://www.educative.io/*",
       "https://www.wikihow.com/*",
-      "https://leetcode.com/*"
+      "https://leetcode.com/*",
+      "https://codegym.cc/*"
     ]
 }); // url Array
 let listOfWindowsOpen = [];
