@@ -69,7 +69,10 @@ const tabs = await chrome.tabs.query({
       "https://junit.org/*",
       "https://www.lambdatest.com/*",
       "https://www.parasoft.com/*",
-      "https://www.ibm.com/*"
+      "https://www.ibm.com/*",
+      "https://www.tutorialspoint.com/*",
+      "https://eclipse.dev/*",
+      "https://www.vogella.com/*"
     ]
 }); // url Array
 let listOfWindowsOpen = [];
