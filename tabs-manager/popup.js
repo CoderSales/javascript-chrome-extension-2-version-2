@@ -76,7 +76,8 @@ const tabs = await chrome.tabs.query({
       "https://guides.lib.umich.edu/*",
       "https://www.msofficeforums.com/*",
       "https://superuser.com/*",
-      "https://www.researchgate.net/*"
+      "https://www.researchgate.net/*",
+      "https://dev.mysql.com/*"
     ]
 }); // url Array
 let listOfWindowsOpen = [];
