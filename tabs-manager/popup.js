@@ -85,7 +85,9 @@ const tabs = await chrome.tabs.query({
       "https://digitalcommons.calpoly.edu/*",
       "https://scholar.google.com/*",
       "https://ieeexplore.ieee.org/*",
-      "https://www.diva-portal.org/*"
+      "https://www.diva-portal.org/*",
+      "https://innovate.ieee.org/*",
+      "https://en.wikipedia.org/*"
     ]
 }); // url Array
 let listOfWindowsOpen = [];
