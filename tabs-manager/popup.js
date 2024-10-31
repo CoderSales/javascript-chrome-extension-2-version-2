@@ -81,7 +81,11 @@ const tabs = await chrome.tabs.query({
       "https://www.overleaf.com/*",
       "https://dl.acm.org/*",
       "https://zenodo.org/*",
-      "https://www.mdpi.com/*"
+      "https://www.mdpi.com/*",
+      "https://digitalcommons.calpoly.edu/*",
+      "https://scholar.google.com/*",
+      "https://ieeexplore.ieee.org/*",
+      "https://www.diva-portal.org/*"
     ]
 }); // url Array
 let listOfWindowsOpen = [];
