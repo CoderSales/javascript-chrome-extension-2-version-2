@@ -78,7 +78,7 @@ const tabs = await chrome.tabs.query({
       "https://superuser.com/*",
       "https://www.researchgate.net/*",
       "https://dev.mysql.com/*",
-      "https://www.overleaf.com/*".
+      "https://www.overleaf.com/*",
       "https://dl.acm.org/*",
       "https://zenodo.org/",
       "https://www.mdpi.com/*"
