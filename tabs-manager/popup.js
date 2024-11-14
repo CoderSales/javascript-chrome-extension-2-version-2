@@ -94,7 +94,8 @@ const tabs = await chrome.tabs.query({
       "https://www.sharepointdiary.com/*",
       "https://matplotlib.org/*",
       "https://pandas.pydata.org/*",
-      "https://numpy.org/*"
+      "https://numpy.org/*",
+      "https://seaborn.pydata.org/*"
     ]
 }); // url Array
 let listOfWindowsOpen = [];
