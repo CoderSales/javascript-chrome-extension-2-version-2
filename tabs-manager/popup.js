@@ -98,7 +98,14 @@ const tabs = await chrome.tabs.query({
       "https://seaborn.pydata.org/*",
       "https://jupyter.org/*",
       "https://ipython.readthedocs.io/*",
-      "https://libguides.ul.ie/*"
+      "https://libguides.ul.ie/*",
+      "https://www.kaggle.com/*",
+      "https://www.statmt.org/*",
+      "https://docs.google.com/*",
+      "https://metaschool.so/*",
+      "https://builtin.com/*",
+      
+
     ]
 }); // url Array
 let listOfWindowsOpen = [];
