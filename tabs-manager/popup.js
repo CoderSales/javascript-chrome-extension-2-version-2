@@ -104,7 +104,8 @@ const tabs = await chrome.tabs.query({
       "https://docs.google.com/*",
       "https://metaschool.so/*",
       "https://builtin.com/*",
-      "https://www.tensorflow.org/*"
+      "https://www.tensorflow.org/*",
+      "https://www.sas.com/*"
     ]
 }); // url Array
 let listOfWindowsOpen = [];
