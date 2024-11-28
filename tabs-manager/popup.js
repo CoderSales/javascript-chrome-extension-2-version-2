@@ -109,7 +109,8 @@ const tabs = await chrome.tabs.query({
       "https://paperswithcode.com/*",
       "https://www.ml-science.com/*",
       "https://www.lucidchart.com/*",
-      "https://www.bing.com/*"
+      "https://www.bing.com/*",
+      "https://support.microsoft.com/*"
     ]
 }); // url Array
 let listOfWindowsOpen = [];
