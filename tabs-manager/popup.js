@@ -115,6 +115,7 @@ const tabs = await chrome.tabs.query({
       "https://arxiv.org/*",
       "https://ai.azure.com/*",
       "https://portal.azure.com/*",
+      "https://microsoftlearning.github.io/*",
 
     ]
 }); // url Array
